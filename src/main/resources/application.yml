@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: 123456
+    driver-class: org.postgresql.Driver
+  mybatis:
+    # Set the xml configuration file address for mybatis.
+    # config-location: "classpath:mybatis/mybatis-config.xml"
+
+    # Loads all files in the 'mapper' directory (regardless of directory hierarchy) with names ending in '-mapper.xml'.
+    #mapper-locations:
+    #  - "classpath:mapper/**/*-mapper.xml" 
